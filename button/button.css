@@ -71,6 +71,8 @@ border: none;
     border: none;
 }
 
+
+/* button four */
 .style-four {
     background-color: #f34079;
     color: white;
@@ -87,4 +89,9 @@ border: none;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
     box-shadow: 5px 10px #f34079;
+}
+.style-four:active {
+    border-color: #f34079;
+    color: #f34079;
+    border-radius: 5px;
 }
