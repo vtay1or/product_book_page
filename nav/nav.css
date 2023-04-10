@@ -1,34 +1,60 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
-body {
-    color:blanchedalmond;
+* {
+    padding: 0;
+    margin: 0 auto;
 }
 
-.logo {
-    display: flex;
-    padding: 2em;
+.logo a {
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
 }
-nav {
+.navbar {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    border: 1px solid #f34079;
+    padding: 5px;
 }
 
-nav ul {
+ .nav-links a { 
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.menu {
     display: flex;
-    align-items: flex-end;
-}
-
-nav li { 
-    padding: 1em;
     list-style: none;
-    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-    color: f34079;
+.menu li {
+    padding: auto 8px 14px;
 }
+.menu li:hover {
+    background-color: #f34079;
+    transition: 0.3s ease;
+    padding: 5px;
+    border-radius: 25px;
+} 
+
+.nav-links a:hover {
+    color: white;
+}
+
+/* media queries */
+/* @media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align:center;
+        padding: 16px 0;
+    }
+    input[type=checkbox]:checked ~ .menu {
+        display: block;
+    } */
