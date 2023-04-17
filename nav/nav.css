@@ -17,18 +17,22 @@
     padding: 5px;
     background-color: aliceblue;
 }
+.nav-links li {
+    display: inline-block;
+    background-color: red;
+    margin: 0 auto;
+}
 
  .nav-links a { 
     text-decoration: none;
     color: black;
     padding: 10px;
-    align-content:center;
-    justify-content: center;
+    display: block;
+    background-color: rebeccapurple;
 }
 
 .menu {
     display: flex;
-    align-content: flex-end;
     list-style: none;
 }
 
@@ -39,7 +43,7 @@
 .menu li:hover {
     background-color: rgb(139, 171, 198);
     transition: 0.3s ease;
-    padding: 5px;
+    margin: 0;
     border-radius: 25px;   
     /* box-shadow: 5px 10px black; */
 } 
