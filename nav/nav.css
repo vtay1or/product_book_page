@@ -1,53 +1,29 @@
-* {
-    padding: 0;
-    margin: 0 auto;
-    font-family: 'Yeseva One', cursive;
+.logo {
+    display: inline-block;
+    width: fit-content;
+    margin: 10;
 }
 
-.logo a {
-    display: inline-block;
-    font-size: 15px;
-    text-decoration: none;
-    color:black;
-}
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 5px;
-    background-color: aliceblue;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
 }
 .nav-links li {
     display: inline-block;
-    background-color: red;
+    font-family: 'Lato', sans-serif;
     margin: 0 auto;
 }
 
  .nav-links a { 
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
     display: block;
-    background-color: rebeccapurple;
 }
-
-.menu {
-    display: flex;
-    list-style: none;
-}
-
-.menu li {
-    align-items: center;
-    align-items:center ;
-}
-.menu li:hover {
-    background-color: rgb(139, 171, 198);
-    transition: 0.3s ease;
-    margin: 0;
-    border-radius: 25px;   
-    /* box-shadow: 5px 10px black; */
-} 
 
 .nav-links a:hover {
-    color: white;
+    color: #fc894d
 }

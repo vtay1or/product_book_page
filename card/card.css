@@ -5,31 +5,48 @@
 
 .card {
     box-sizing: border-box;
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 50%;
     height: 50%;
     padding: 16px;
     margin: 10px auto;
-    text-align: center;
     color: white;
-    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    background-image: linear-gradient(135deg, rgb(243, 64, 121) 40%, rgb(252, 137, 77));
+    border-radius: 20px;
 }
 
+.card-link{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(215, 215, 215);
+}
 
-.card.rounded {
-    border-radius: 20px;
+.card.border {
+    background-image: none;
+    border-image: linear-gradient(135deg, rgb(243, 64, 121) 40%, rgb(252, 137, 77)) 1;
+    border-style: solid;
+    border-width: 4px;
+    color: #f34079;
+    text-align: center;
 }
 img {
     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
     padding: 5px;
-    width: 150px;
-    object-fit: cover;
   }
   
 h2 {
-    font-size: 24px;
-  font-weight: 600;
-
-  margin-top: 16px;
+    margin-top: 16px;
+}
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
 }
