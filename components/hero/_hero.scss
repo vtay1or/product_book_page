@@ -1,0 +1,15 @@
+.hero {
+    display: flex;
+    width: 100vw;
+    min-height: 50vh;
+    background-color: $primary-color;
+    background-image: url('/components/hero/Plane.jpg');
+    background-size: cover;
+    
+    .hero-quote {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        padding: 2em;
+    }
+}
