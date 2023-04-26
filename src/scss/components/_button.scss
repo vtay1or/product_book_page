@@ -1,0 +1,34 @@
+.btn  {
+    background-color: white;
+    padding: 15px;
+    margin:0;
+    color:#f34079;
+    border-radius: 25px;
+    border: 2px solid #f34079;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+}
+.btn.gradient.noborder:hover, .btn.gradient:active {
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border-color: white
+}
+
+.btn.fill:hover {
+    background-color: #f34079;
+    color: white;
+}
+
+.btn.square {
+    border-radius: 0;
+    color: #f34079;
+ }
+ .btn.shadow:hover {
+    box-shadow: 5px 5px #f34079;
+}
+
+
