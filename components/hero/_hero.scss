@@ -1,15 +1,31 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
 .hero {
     display: flex;
     width: 100vw;
-    min-height: 50vh;
-    background-color: $primary-color;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
     background-image: url('/components/hero/Plane.jpg');
+    position: relative;
     background-size: cover;
+    margin: 0;
     
     .hero-quote {
-        display: flex;
-        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
         color: white;
-        padding: 2em;
+        padding: 100px;
+        text-align: center; 
+
     }
 }
