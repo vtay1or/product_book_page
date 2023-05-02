@@ -1,0 +1,124 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
+  background-image: url("/public/imgs/Plane.jpg");
+  position: relative;
+  background-size: cover;
+  margin: 0;
+}
+.hero .hero-quote {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  margin: 10px auto;
+  color: white;
+  background-image: linear-gradient(135deg, rgb(243, 64, 121) 40%, rgb(252, 137, 77));
+  border-radius: 20px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(215, 215, 215);
+}
+
+.card.border {
+  background-image: none;
+  border-image: linear-gradient(135deg, rgb(243, 64, 121) 40%, rgb(252, 137, 77)) 1;
+  border-style: solid;
+  border-width: 4px;
+  color: #f34079;
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+h2 {
+  margin-top: 16px;
+  font-size: 3em;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn {
+  background-color: white;
+  padding: 15px;
+  margin: 0;
+  color: #f34079;
+  border-radius: 25px;
+  border: 2px solid #f34079;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn.gradient.noborder:hover, .btn.gradient:active {
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border-color: white;
+}
+
+.btn.fill:hover {
+  background-color: #f34079;
+  color: white;
+}
+
+.btn.square {
+  border-radius: 0;
+  color: #f34079;
+}
+
+.btn.shadow:hover {
+  box-shadow: 5px 5px #f34079;
+}
+
+/*# sourceMappingURL=style.css.map */

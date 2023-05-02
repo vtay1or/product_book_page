@@ -1,0 +1,15 @@
+{
+  "name": "component-library-vtay1or",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch --update ./src/scss:./assets/css/",
+    "build": "sass ./src/scss:./assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.62.1"
+  }
+}
