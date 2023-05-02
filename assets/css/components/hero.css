@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  background-image: url(Plane.jpg);
+  background-size: cover;
+  width: 100vw;
+  min-height: 50vh;
+}
+
+.hero-quote {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  padding: 2em;
+}
+
+/*# sourceMappingURL=hero.css.map */
