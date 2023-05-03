@@ -186,6 +186,10 @@ h2 {
   flex-flow: column wrap;
 }
 
+.book-info p {
+  padding: 3em;
+}
+
 .btn fill {
   align-self: center;
   padding: 0%;
@@ -194,6 +198,24 @@ h2 {
 .book-info h1 {
   font-size: revert;
   padding: 5px;
+}
+
+.breadcrumb-nav {
+  padding: 2em;
+}
+
+.breadcrumb-nav a {
+  color: #fc894d;
+}
+
+.breadcrumb-nav > li {
+  display: inline;
+}
+
+.breadcrumb-nav li + li:before {
+  padding: 4px;
+  content: "/";
+  color: #f34079;
 }
 
 /*# sourceMappingURL=style.css.map */
