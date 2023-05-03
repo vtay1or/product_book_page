@@ -1,0 +1,13 @@
+.book-info {
+    display: flex;
+    flex-flow: column wrap;
+}
+.btn fill {
+    align-self: center;
+    padding: 0%;
+
+}
+.book-info h1 {
+    font-size: revert;
+    padding: 5px;
+}

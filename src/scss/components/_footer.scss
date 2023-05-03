@@ -14,9 +14,13 @@
     text-decoration: none;
     padding: 10px;
     display: block;
+    color: #fc894d;
 }
 
 .footer-links li {
     display: inline-block;
-    color: #fc894d;
+}
+
+.footer-links a:hover {
+    color: #f34079;
 }
