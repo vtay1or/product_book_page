@@ -95,6 +95,7 @@ h2 {
   border: 2px solid #f34079;
   font-family: "Lato", sans-serif;
   text-decoration: none;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -184,6 +185,17 @@ h2 {
 .book-info {
   display: flex;
   flex-flow: column wrap;
+  padding: 5px;
+  align-items: center;
+}
+
+img {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 5px;
 }
 
 .book-info p {
@@ -197,7 +209,7 @@ h2 {
 
 .book-info h1 {
   font-size: revert;
-  padding: 5px;
+  align-items: center;
 }
 
 .breadcrumb-nav {
@@ -206,6 +218,12 @@ h2 {
 
 .breadcrumb-nav a {
   color: #fc894d;
+  text-decoration: none;
+}
+
+.breadcrumb-nav a:hover {
+  color: #f34079;
+  text-decoration: none;
 }
 
 .breadcrumb-nav > li {

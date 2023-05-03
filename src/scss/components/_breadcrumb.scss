@@ -3,6 +3,11 @@
 }
 .breadcrumb-nav a {
     color: #fc894d;
+    text-decoration: none;
+}
+.breadcrumb-nav a:hover {
+    color: #f34079;
+    text-decoration: none;
 }
 .breadcrumb-nav > li {
     display: inline;

@@ -1,7 +1,17 @@
 .book-info {
     display: flex;
     flex-flow: column wrap;
+    padding: 5px;
+    align-items: center;
 }
+
+img {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;   
+    padding: 5px;}
 .book-info p {
     padding: 3em;
 }
@@ -12,21 +22,5 @@
 }
 .book-info h1 {
     font-size: revert;
-    padding: 5px;
+    align-items: center;
 }
-
-.breadcrumb-nav {
-    padding: 2em;
-}
-.breadcrumb-nav a {
-    color: #fc894d;
-}
-.breadcrumb-nav > li {
-    display: inline;
-}
-
-.breadcrumb-nav li + li:before {
-    padding: 4px;
-    content: "/";
-    color: #f34079;
-  }
