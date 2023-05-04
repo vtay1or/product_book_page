@@ -17,16 +17,8 @@ body, html {
   background-size: cover;
   margin: 0;
 }
-.hero .hero-quote {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100px;
-  height: 100px;
+.hero .hero-subtitle, .hero .hero-title {
   color: white;
-  padding: 100px;
-  text-align: center;
 }
 
 .container {
@@ -87,7 +79,7 @@ h2 {
 }
 
 .btn {
-  background-color: white;
+  background: none;
   padding: 15px;
   margin: 0;
   color: #f34079;
@@ -105,7 +97,7 @@ h2 {
 
 .btn.gradient.noborder:hover, .btn.gradient:active {
   background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-  border-color: white;
+  border-color: none;
 }
 
 .btn.fill:hover {
@@ -234,6 +226,30 @@ img {
   padding: 4px;
   content: "/";
   color: #f34079;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f34079; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

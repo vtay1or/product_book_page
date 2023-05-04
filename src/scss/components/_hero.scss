@@ -16,16 +16,7 @@ body, html {
     background-size: cover;
     margin: 0;
     
-    .hero-quote {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100px;
-        height: 100px;
+    .hero-subtitle, .hero-title {
         color: white;
-        padding: 100px;
-        text-align: center; 
-
     }
 }
